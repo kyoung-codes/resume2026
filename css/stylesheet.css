@@ -82,12 +82,16 @@
 
 /* layout */
 
+.body {
+  background-color: var(--color-bg);
+  font-family: 'Pretendard', sans-serif;
+  color: var(--color-text-primary);
+}
+
 .container {
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 var(--space-16);
-  font-family: 'Pretendard', sans-serif;
-  color: var(--color-text-primary);
 }
 
 section {
@@ -101,7 +105,7 @@ section {
   justify-content: space-between;
   align-items: center;
   height: 80px;
-  padding: 0 sp;
+  padding: 0 var(--space-80);
 }
 
 .logo {
