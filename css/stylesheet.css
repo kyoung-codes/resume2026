@@ -84,10 +84,11 @@
 
 .container {
   max-width: 1440px;
+  padding: 0 var(--space-80);
   margin: 0 auto;
   font-family: 'Pretendard', sans-serif;
 }
 
 section {
-  padding: var(--space-112) var(--space-80);
+  padding: var(--space-112) 0;
 }
