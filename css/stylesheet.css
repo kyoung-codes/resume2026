@@ -99,6 +99,31 @@ section {
   padding: var(--space-112) var(--space-80);
 }
 
+.section__title span {
+  display: inline-block;
+  margin-bottom: var(--space-16);
+  font-size: var(--space-18);
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+  color: var(--color-primary);
+}
+
+.section__title h2 {
+  margin-bottom: var(--space-24);
+  font-size: var(--space-48);
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+}
+
+.section__title p {
+  font-size: var(--space-16);
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--color-text-secondary);
+}
+
 
 /* header */
 .header__inner {
@@ -198,4 +223,72 @@ section {
 .hero__link a:last-child {
   border: 1px solid var(--color-primary);
   color: var(--color-primary);
+}
+
+
+/* about me */
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.about__content {
+  width: min(100%, 600px);
+  min-height: 440px;
+}
+
+details summary {
+  list-style: none;
+  cursor: pointer;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+.about__list summary {
+  font-size: var(--space-24);
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+
+  padding: var(--space-24) var(--space-48);
+  padding-right: calc();
+  position: relative;
+}
+
+.about__list summary::after {
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: var(--space-48);
+  background: url('../images/icon-open.svg') no-repeat center /24px;
+}
+
+.about__answer {
+  font-size: var(--space-16);
+  font-weight: 400;
+  line-height: 1.6;
+  padding: var(--space-24) var(--space-48);
+}
+
+.about__answer p {
+  font-size: var(--space-16);
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-12);
+}
+
+.about__answer p:last-child {
+  margin-bottom: 0;
+}
+
+.about__content details[open] summary::after {
+  background: url("../images/icon-close.svg");
 }
