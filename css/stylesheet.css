@@ -1,0 +1,93 @@
+/* css document */
+
+/* 변수 선언 */
+:root {
+  /* space */
+  --space-4: 0.25rem;
+  --space-8: 0.5rem;
+  --space-12: 0.75rem;
+  --space-16: 1rem;
+  --space-18: 1.125rem;
+  --space-20: 1.25rem;
+  --space-24: 1.5rem;
+  --space-32: 2rem;
+  --space-48: 3rem;
+  --space-64: 4rem;
+  --space-80: 5rem;
+  --space-112: 7rem;
+
+  /* 컬러 */
+  --color-bg: #FAFAF8;
+  --color-primary: #8798D0;
+  --color-primary-light: #DCE2F5;
+  --color-primary-50: rgba(135, 152, 208, 0.5);
+  --color-primary-light-20: rgba(220, 226, 245, 0.2);
+  --color-white: #fff;
+  --color-text-primary: #333333;
+  --color-text-secondary: #666666;
+  --color-text-tertiary: #999999;
+  --color-border: #E6E6E6;
+  
+  --section-gradient: linear-gradient(135deg, var(--color-primary-light) 0%, var(--color-bg) 100%);
+
+  /* border-radius */
+  --radius-999: 999px;
+  --radius-20: 20px;
+}
+
+/* font */
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "YeongdeokSea";
+  src: url("../font/Yeongdeok-Sea.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+/* layout */
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: 'Pretendard', sans-serif;
+}
+
+section {
+  padding: var(--space-112) var(--space-80);
+}
