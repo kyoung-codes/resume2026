@@ -322,6 +322,7 @@ details summary::-webkit-details-marker {
   padding: var(--space-24);
   border: 1px solid var(--color-border);
   border-radius: var(--space-20);
+  background-color: var(--color-white);
 }
 
 .strength__card img {
