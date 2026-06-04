@@ -302,11 +302,14 @@ details summary::-webkit-details-marker {
 
 
 /* strength */
+.strength {
+  background-image: var(--section-gradient);
+}
+
 .strength .inner {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: var(--section-gradient);
 }
 
 .strength__title {
