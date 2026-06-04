@@ -90,13 +90,14 @@ body {
   color: var(--color-text-primary);
 }
 
-.container {
+.inner {
+  width: 100%;
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 var(--space-16);
 }
 
-section {
+section .inner {
   padding: var(--space-112) var(--space-80);
 }
 
