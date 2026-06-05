@@ -696,3 +696,41 @@ details summary::-webkit-details-marker {
 .control__arrows span {
   display: none;
 }
+
+
+/* contact */
+.contact > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact__links li {
+  margin-bottom: var(--space-24);
+  width: clamp(300px, 50vw, 500px);
+}
+
+.contact__links li:last-child {
+  margin-bottom: 0;
+}
+
+.link {
+  display: flex;
+  gap: var(--space-16);
+  align-items: flex-start;
+}
+
+.link__text p {
+  font-size: var(--space-20);
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--color-primary);
+  margin-bottom: var(--space-8);
+}
+
+.link__text a {
+  color: var(--color-text-secondary);
+  font-size: var(--space-16);
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: -0.01em;
+}
