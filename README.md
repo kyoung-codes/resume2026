@@ -1,8 +1,10 @@
 # 2026 Keunyoung Portfolio
 디자인과 구현의 과정을 이해하며 성장하는 프론트엔드 개발자 박근영의 원페이지형 포트폴리오 웹사이트입니다.
 
+
 ## 미리보기
 ![2026 Keunyoung Portfolio 미리보기](./images/main.JPG)
+
 
 ## 배포 링크
 [2026 Keunyoung Portfolio 배포 링크](https://kyoung-codes.github.io/resume2026/)
@@ -18,8 +20,11 @@
 - Hover 효과
 - Fade-up 애니메이션
 
+
 ## 프로젝트 구조
-portfolio/
+<CodeBlockWrapper v-bind="{}" :title='""' :ranges='[]'>
+
+```portfolio/
 ├── index.html
 ├── css/
 │   ├── reset.css
@@ -27,12 +32,17 @@ portfolio/
 ├── images/
 ├── font/
 └── README.md
+```
+
+</CodeBlockWrapper>
+
 
 ## 향후 개선 계획
 - 프로젝트 링크 연결
 - 디자인 아카이브 추가
 - 접근성 개선
 - 성능 최적화
+
 
 ## 제작 정보
 - 제작자 : 박근영
