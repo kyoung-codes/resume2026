@@ -84,6 +84,7 @@
 @font-face {
   font-family: "YeongdeokSea";
   src: url("../font/Yeongdeok-Sea.ttf") format("truetype");
+  src: url("../font/Yeongdeok-Sea.otf") format("opentype");
   font-display: swap;
 }
 
