@@ -2,7 +2,7 @@
 디자인과 구현의 과정을 이해하며 성장하는 프론트엔드 개발자 박근영의 원페이지형 포트폴리오 웹사이트입니다.
 
 ## 미리보기
-![2026 Keunyoung Portfolio 미리보기](./images/main.jpg)
+![2026 Keunyoung Portfolio 미리보기](./images/main.JPG)
 
 ## 배포 링크
 [2026 Keunyoung Portfolio 배포 링크](https://kyoung-codes.github.io/resume2026/)
