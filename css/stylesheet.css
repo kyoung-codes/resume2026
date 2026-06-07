@@ -83,9 +83,7 @@
 
 @font-face {
   font-family: "YeongdeokSea";
-  src: url("../font/Yeongdeok-Sea.otf") format("opentype");
-  font-weight: 400;
-  font-style: normal;
+  src: url("../font/Yeongdeok-Sea.ttf") format("truetype");
   font-display: swap;
 }
 
