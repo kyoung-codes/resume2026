@@ -20,6 +20,7 @@
 
   /* 컬러 */
   --color-bg: #FAFAF8;
+  --color-bg-70 :rgba(250, 250, 248, 0.7);
   --color-primary: #8798D0;
   --color-primary-light: #DCE2F5;
   --color-primary-dark: #6F84C5;
@@ -42,6 +43,7 @@
   --radius-999: 999px;
   --radius-20: 20px;
 }
+
 
 /* font */
 @font-face {
@@ -164,7 +166,7 @@ section .inner {
   width: 100%;
   height: 80px;
   padding-top: var(--space-24);
-  background: rgba(250, 250, 248, 0.7);
+  background: var(--color-bg-70);
   backdrop-filter: blur(12px);
   z-index: 100;
   border-bottom: 1px solid var(--color-border);
@@ -1038,6 +1040,54 @@ details summary::-webkit-details-marker {
   color: var(--color-text-tertiary);
 }
 
+
+
+/* dark theme */
+
+[data-theme="dark"] {
+  --color-bg: #101521;
+  --color-bg-70: rgba(16, 21, 33, 0.7);
+  --color-primary: #A7B6EA;
+  --color-primary-light: #2D3652;
+  --color-primary-dark: #C2CDF4;
+  --color-primary-50: rgba(167, 182, 234, 0.5);
+  --color-primary-light-20: rgba(167, 182, 234, 0.12);
+  --color-white: #1A2131;
+  --color-text-primary: #F4F6FB;
+  --color-text-secondary: #C3CAD8;
+  --color-text-tertiary: #8991A1;
+  --color-border: #273042;
+  --color-inactive: #4A556F;
+
+  --section-gradient: linear-gradient(149deg, rgba(135, 152, 208, 0.18) -3.04%, var(--color-bg) 56.04%);
+  
+  --shadow--sm: 0 8px 24px rgba(0,0,0,.28);
+  --shadow-hover: 0 24px 60px rgba(135,152,208,.18);
+
+  --hightligt-color: radial-gradient(circle, rgba(214, 188, 255, .28) 0%, rgba(167, 182, 234, .18) 40%, transparent 75%);
+
+}
+
+[data-theme="dark"] .hero__text::before,
+[data-theme="dark"] .hero__text::after,
+[data-theme="dark"] .projects__title::before,
+[data-theme="dark"] .projects__title::after,
+[data-theme="dark"] .design .inner::before,
+[data-theme="dark"] .contact .inner::after {
+  display: none;
+}
+
+[data-theme="dark"] .hero,
+[data-theme="dark"] .projects,
+[data-theme="dark"] .contact {
+  background-image: url("../images/star.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+/* reponsive */
 
 /* tablet */
 @media (max-width: 1024px) {
