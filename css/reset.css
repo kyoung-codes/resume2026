@@ -50,13 +50,14 @@ table {
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
-}
 
 html, body {
   height: 100%;
   -webkit-font-smoothing: antialiased;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 a {
