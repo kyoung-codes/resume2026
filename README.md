@@ -1,36 +1,59 @@
 # 2026 Keunyoung Portfolio
-디자인과 구현의 과정을 이해하며 성장하는 프론트엔드 개발자 박근영의 원페이지형 포트폴리오 웹사이트입니다.
+디자인과 구현의 과정을 이해하며 성장하는 프론트엔드 개발자 **박근영**의 원페이지형 포트폴리오 웹사이트입니다.
 
----
+반응형 웹, 다크모드, 인터랙션 구현을 통해 사용성과 시각적 경험을 함께 고려한 포트폴리오를 제작하였습니다.
 
-## 미리보기
+<br>
+
+## Preview
 ![2026 Keunyoung Portfolio 미리보기](./images/main.JPG)
 
----
+<br>
 
-## 배포 링크
+## Live Demo
 [2026 Keunyoung Portfolio 배포 링크](https://kyoung-codes.github.io/resume2026/)
 
----
+<br>
 
-## 주요 기능
+## Features
 
-### 반응형 웹
-- Destop, Tablet, Mobile 환경에 대응
-
-  
-### 다크모드
-- Light/Dark theme 지원
-- 컨셉에 맞게 Light theme에서는 구름과 Dark theme에서는 별로 분위기 연출
+### Responsive Web
+* Destop, Tablet, Mobile 환경에 대응
+* 다양한 화면 크기에 맞춘 레이아웃 제공
 
   
-### 인터렉션
-- Hover 효과
-- Fade-up 애니메이션
+### Dark Mode
+* Light / Dark Theme 지원
+* Light Theme : 구름을 활용한 부드러운 분위기
+* Dark Theme : 별을 활용한 차분한 분위기
 
----
+  
+### Interaction
+* Hover 효과
+* Fade-up 애니메이션
 
-## 프로젝트 구조
+<br>
+
+## 🛠 Tech Stack
+
+### Frontend
+
+* HTML5
+* CSS3
+
+### Design
+
+* Figma
+
+### Version Control
+
+* Git
+* GitHub
+
+<br>
+
+
+## Project Structure
 <CodeBlockWrapper v-bind="{}" :title='""' :ranges='[]'>
 
 ```
@@ -46,9 +69,9 @@ resume2026/
 
 </CodeBlockWrapper>
 
----
+<br>
 
-## 문제 해결 및 개선 과정
+## Troubleshooting
 ### 1. 고정 폭 컨테이너 구조로 인해 전체 배경 표현 제한
 
 #### 문제점
@@ -63,6 +86,7 @@ resume2026/
 
 전체 레이아웃 구조를 수정하여 섹션은 화면 전체 너비를 사용하도록 변경하고, 내부 콘텐츠만 `.inner` 클래스로 감싸 `max-width`를 적용하였다. 이를 통해 배경 요소는 화면 전체를 활용하면서도 콘텐츠는 일정한 가독성을 유지할 수 있도록 개선하였다.
 
+---
 
 ### 2. 로컬에서는 정상 동작하지만 배포 환경에서 폰트가 적용되지 않는 문제
 
@@ -78,6 +102,7 @@ resume2026/
 
 폰트 등록 명칭과 사용 명칭을 통일하고, `.ttf`와 `.otf` 파일을 모두 등록한 뒤 각 파일 형식에 맞는 `format()` 값을 적용하였다. 이를 통해 로컬 및 배포 환경 모두에서 폰트가 정상적으로 출력되도록 개선하였다.
 
+---
 
 ### 3. 다크 모드 적용 시 시각적 통일성 문제
 
@@ -93,6 +118,7 @@ resume2026/
 
 다크 모드 전용 컬러 토큰을 별도로 정의하고, 라이트 모드의 구름 장식 요소를 다크 모드에서는 별 장식 요소로 변경하였다. 이를 통해 동일한 컨셉을 유지하면서도 각 테마에 적합한 분위기를 표현할 수 있도록 개선하였다.
 
+---
 
 ### 4. Git 브랜치 병합 과정에서 충돌 발생
 
@@ -108,7 +134,7 @@ resume2026/
 
 기능 단위 브랜치 전략을 적용하고 작업 시작 전 `pull` 및 `git status` 확인을 습관화하였다. 또한 브랜치 이동 시 최신 `main` 브랜치를 먼저 병합한 후 작업하는 방식으로 작업 흐름을 정리하여 이후 충돌 발생 가능성을 줄였다.
 
----
+<br>
 
 ## 향후 개선 계획
 - 웹폰트 사용 정책 및 대체 폰트 전략 보완
@@ -119,9 +145,13 @@ resume2026/
 - 웹 접근성(WA) 및 성능 최적화 개선
 - 이미지 최적화 및 Lighthouse 성능 점수 개선
 
----
+<br>
 
-## 제작 정보
+## About Project
 - 제작자 : 박근영
 - 기간 : 2026.05.29 ~ 2026.06.08
 - 참여도 : 100%
+
+---
+
+Made by Keunyoung
